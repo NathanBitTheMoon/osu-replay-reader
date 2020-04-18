@@ -1,2 +1,9 @@
 # osu-replay-reader
-A python library for reading osu! replay files (.osr)
+A python library for reading osu! replay files (.osr)-
+
+## Module info:
+* lib
+    * fp
+        * **bytearray** Used for converting integer arrays to byte strings and visa versa
+        * **LEB128** Used for reading, decoding, encoding and writing unsigned LEB128 values
+        
